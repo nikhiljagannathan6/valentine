@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question-screen">
+            <h1 class="header-text">Will you be my Valentine? 🌹</h1>
+            
+            <div class="image-container">
+                <img src="images/us1.jpg" alt="Us Together" class="main-image">
+            </div>
+
+            <div class="buttons">
+                <button id="yes-btn" onclick="handleYes()">Yes 💖</button>
+                <button id="no-btn" onclick="handleNo()">No 😐</button>
+            </div>
+        </div>
+
+        <div id="success-screen" class="hidden">
+            <h1 class="header-text">Yay!!! 💕 Happy Valentine’s Day 🥰</h1>
+            
+            <div class="image-container">
+                <img src="images/us2.jpg" alt="Us Happy" class="main-image">
+            </div>
+            
+            <p class="love-note">I love you so much! ❤️</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
